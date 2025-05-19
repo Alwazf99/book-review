@@ -32,8 +32,9 @@ A RESTful API for managing books and reviews, built with Node.js, Express, and M
 3. Set up environment variables:
 
   Create a .env file in the root directory
-
+ 
   Add the following variables:
+  ```bash
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret_key
    PORT=5000
